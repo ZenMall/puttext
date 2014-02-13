@@ -138,8 +138,9 @@ function process(fn, markers) {
 
             // hard stop if we received something strange
             if (msg === undefined) {
-                console.log("ERROR: something went wrong in " + fn);
-                process.exit(1);
+                // console.log("ERROR: something went wrong in " + fn);
+                // process.exit(1);
+                continue;
             }
 
             // output message string
